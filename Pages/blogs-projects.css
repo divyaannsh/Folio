@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #483efe;
+  --blog-color: #ffb93f;
+}
+
+.main-heading {
+  margin: 2rem 0 0.8rem 0;
+  font-size: 2rem;
+  box-sizing: border-box;
+  border: black;
+}
+
+.hero-image {
+  padding: 0 0 0.8rem 0;
+}
+
+.section-heading span {
+  font-weight: bold;
+}
+
+/* Project links */
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.section-live-link {
+  border: solid 2px var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.section-code-link {
+  padding: 0.5rem 1.5rem;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+}
+.section-blog-links {
+  background-color: var(--blog-color);
+  color: black;
+  font-weight: 500;
+  padding: 0.5rem 1.8rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width:740px) {
+  .section-heading {
+      font-size: 1.5rem;
+      padding-bottom: 0.2rem;
+      line-height: 2rem;
+  }
+  .section-live-link {
+      padding: 0.3rem 1rem;
+  }
+  .section-code-link {
+      padding: 0.4rem 1rem;
+  }
+  .project {
+      padding: 2rem 0.5rem;
+  }
+}
+
+@media (max-width:400px) {
+  .section-info {
+      font-size: 1rem;
+  }
+  .section-code-link, .section-live-link {
+      font-size: 0.95rem;
+  }
+}
