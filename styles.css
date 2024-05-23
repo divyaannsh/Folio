@@ -141,14 +141,14 @@ section:nth-child(odd) {
   display: flex;
   align-items: center;
   justify-items: center;
-  width: 40%;
+  width: 60%;
   margin: 2rem;
 }
 .project-images-netflix {
   display: flex;
   align-items: center;
   justify-items: center;
-  width: 100%;
+  width: 80%;
   margin: 20px;
 }
 
